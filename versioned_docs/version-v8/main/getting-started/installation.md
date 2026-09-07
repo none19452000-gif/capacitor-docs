@@ -1,3 +1,9 @@
+bun add @capacitor/core @capacitor/cli @capacitor/android
+bunx cap init "Pulse" "com.example.pulse" --web-dir dist
+bunx cap add android
+bun run build
+bunx cap sync android
+bunx cap open android
 ---
 title: Installing Capacitor
 description: Installing Capacitor
